@@ -32,6 +32,14 @@ function modificar(nombre) {
     provincias.value[pos] = nuevoNombre;
 }
 
+// verificar funcionamiento
+let provinciasCopia = ref("");
+provinciasCopia = provincias.value.slice();
+
+function reestablecer(){
+    provincias.value = provinciasCopia;
+}
+
 </script>
 
 <template>
@@ -45,6 +53,7 @@ function modificar(nombre) {
             <input class="btn btn--insertar" type="button" value="Agregar" v-on:click="insertar(nombre)">
             <input class="btn btn--eliminar btn--sm" type="button" value="Eliminar" v-on:click="eliminar(nombre)">
             <input class="btn btn--modificar" type="button" value="Modificar" v-on:click="modificar(nombre)">
+            <input type="button" value="Reestablecer" v-on:click="reestablecer()">
 
         </form>
     </div>
