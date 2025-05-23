@@ -1,5 +1,7 @@
 <script setup>
-import listaProvincia from './components/listaProvincia.vue';
+import comidasRapidas from './components/comidasRapidas.vue';
+// import registerForm from './components/registerForm.vue';
+// import listaProvincia from './components/listaProvincia.vue';
 // import ejemplo_funciones from './components/ejemplo_funciones.vue';
 // import tablasHtml from './components/tablasHtml.vue';
 // import objetos from './components/objetos.vue';
@@ -8,7 +10,9 @@ import listaProvincia from './components/listaProvincia.vue';
 </script>
 
 <template>
-  <listaProvincia></listaProvincia>
+<comidasRapidas></comidasRapidas>
+  <!-- <registerForm></registerForm> -->
+  <!-- <listaProvincia></listaProvincia> -->
   <!-- <ejemplo_funciones></ejemplo_funciones> -->
   <!-- <tablasHtml> </tablasHtml> -->
   <!-- <objetos></objetos> -->
