@@ -1,5 +1,6 @@
 <script setup>
-import comidasRapidas from './components/comidasRapidas.vue';
+import calculadora from './components/calculadora.vue';
+// import comidasRapidas from './components/comidasRapidas.vue';
 // import registerForm from './components/registerForm.vue';
 // import listaProvincia from './components/listaProvincia.vue';
 // import ejemplo_funciones from './components/ejemplo_funciones.vue';
@@ -10,7 +11,8 @@ import comidasRapidas from './components/comidasRapidas.vue';
 </script>
 
 <template>
-<comidasRapidas></comidasRapidas>
+  <calculadora></calculadora>
+<!-- <comidasRapidas></comidasRapidas> -->
   <!-- <registerForm></registerForm> -->
   <!-- <listaProvincia></listaProvincia> -->
   <!-- <ejemplo_funciones></ejemplo_funciones> -->
