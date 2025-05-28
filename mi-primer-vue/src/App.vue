@@ -1,5 +1,10 @@
 <script setup>
-import calculadora from './components/calculadora.vue';
+import otraCalculadora from './components/otraCalculadora.vue';
+// import calculadora from './components/calculadora.vue';
+
+// estilo de css
+import './assets/styles.css';
+//
 // import comidasRapidas from './components/comidasRapidas.vue';
 // import registerForm from './components/registerForm.vue';
 // import listaProvincia from './components/listaProvincia.vue';
@@ -11,7 +16,8 @@ import calculadora from './components/calculadora.vue';
 </script>
 
 <template>
-  <calculadora></calculadora>
+  <otraCalculadora></otraCalculadora>
+  <!-- <calculadora></calculadora> -->
 <!-- <comidasRapidas></comidasRapidas> -->
   <!-- <registerForm></registerForm> -->
   <!-- <listaProvincia></listaProvincia> -->
@@ -23,4 +29,3 @@ import calculadora from './components/calculadora.vue';
   <!-- <EjerciciosOperadores>  </EjerciciosOperadores> -->
 </template>
 
-<style></style>

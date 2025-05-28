@@ -1,0 +1,132 @@
+.padre-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: inline-flex;
+    /* Agrega flexbox */
+    flex-direction: column;
+    /* Asegura que los elementos se apilen verticalmente*/
+    flex-direction: row;
+    /* Asegura que los elementos se apilen verticalmente*/
+    justify-content: center;
+    /* Centra horizontalmente el contenedor */
+    align-items: start;
+    /* Centra verticalmente si es necesario */
+    height: 100vh;
+    /* Ocupa toda la altura de la ventana */
+    width: 100vw;
+    /* Ocupa todo el ancho de la ventana */
+    margin: 0;
+    /* Elimina márgenes predeterminados */
+}
+
+/* form-container */
+
+.form-container {
+    background: #c6cf9e;
+    /* Fondo blanco para un diseño limpio */
+    width: 30%;
+    /* Define el ancho del contenedor */
+    padding: 20px;
+    /* Espaciado interno para comodidad */
+    margin: 10px;
+    /* Margen exterior para separación */
+    border-radius: 10px;
+    /* Bordes redondeados para suavidad */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.105);
+    /* Sombra ligera para efecto elevado */
+}
+
+.form-container label {
+    font-weight: bold;
+    /* Hace que el texto sea más grueso */
+    display: block;
+    /* Coloca el label en una nueva línea */
+    margin-top: 10px;
+    /* Agrega espacio arriba del label */
+}
+
+.form-container input {
+    width: 95%;
+    /* Ocupa todo el ancho disponible */
+    padding: 8px;
+    /* Espaciado interno para mejor comodidad */
+    margin-top: 5px;
+    /* Espacio superior entre elementos */
+    border: 1px solid rgb(150, 121, 91);
+    /* Borde sutil y ligero */
+    border-radius: 5px;
+    /* Esquinas redondeadas para un diseño suave */
+}
+
+.form-container .btn {
+    margin: 5px;
+    /* Espacio superior para separación */
+    padding: 10px;
+    /* Espaciado interno para mejor apariencia */
+    width: 45%;
+    /* Botón de ancho completo */
+    background-color: #28a745;
+    /* Color verde para destacar */
+    color: white;
+    /* Texto en blanco para contraste */
+    border: none;
+    /* Sin bordes visibles */
+    border-radius: 5px;
+    /* Bordes redondeados para suavidad */
+    cursor: pointer;
+    /* Cambia el cursor al pasar el mouse */
+}
+
+.form-container .btn:hover {
+    background-color: #218838;
+}
+
+.form-container .btn-eliminar:hover {
+    background-color: coral;
+}
+
+
+/* lista-container */
+
+.lista-container {
+    background: white;
+    width: 60%;
+    /* Ajusta el ancho */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
+}
+
+.lista-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+.lista-container th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.lista-container th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.lista-container tr:hover {
+    background-color: #7db480;
+    transition: background-color 1s;
+}
+
+/* Fijar la cabecera */
+.lista-container .encabezado-fijo {
+    position: sticky;
+    top: 0;
+    background-color: #4CAF50;
+    color: white;
+    z-index: 100;
+}

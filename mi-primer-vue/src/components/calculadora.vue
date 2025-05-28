@@ -21,12 +21,12 @@ function sumar(){
       <form class="formulario">
         <div class="grupo-input">
           <label for="num1" class="etiqueta">Ingrese un número:</label>
-          <input v-model.number="num1" type="number" id="num1" class="entrada-numero" placeholder="Primer valor">
+          <input v-model.number="formCalculadora.num1" type="number" id="num1" class="entrada-numero" placeholder="Primer valor">
         </div>
         
         <div class="grupo-input">
           <label for="num2" class="etiqueta">Ingrese un número:</label>
-          <input v-model.number="num2" type="number" id="num2" class="entrada-numero" placeholder="Segundo valor">
+          <input v-model.number="formCalculadora.num2" type="number" id="num2" class="entrada-numero" placeholder="Segundo valor">
         </div>
 
         <div class="contenedor-botones">
@@ -38,7 +38,7 @@ function sumar(){
 
         <div class="grupo-input">
           <label class="etiqueta">Resultado: </label>
-          <input type="text" id="resultado" class="entrada-resultado" readonly v-bind:value="{{ formCalculadora.resultado }}">
+          <!-- <input type="text" id="resultado" class="entrada-resultado" readonly v-bind:value="{{ formCalculadora.resultado }}"> -->
         </div>
       </form>
     </div>
