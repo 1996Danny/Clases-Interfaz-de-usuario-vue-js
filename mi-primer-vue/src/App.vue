@@ -1,5 +1,6 @@
 <script setup>
-import otraCalculadora from './components/otraCalculadora.vue';
+import IMCCalculator from './components/IMCCalculator.vue';
+// import otraCalculadora from './components/otraCalculadora.vue';
 // import calculadora from './components/calculadora.vue';
 
 // estilo de css
@@ -16,7 +17,8 @@ import './assets/styles.css';
 </script>
 
 <template>
-  <otraCalculadora></otraCalculadora>
+  <IMCCalculator></IMCCalculator>
+  <!-- <otraCalculadora></otraCalculadora> -->
   <!-- <calculadora></calculadora> -->
 <!-- <comidasRapidas></comidasRapidas> -->
   <!-- <registerForm></registerForm> -->
