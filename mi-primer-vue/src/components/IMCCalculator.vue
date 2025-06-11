@@ -30,9 +30,7 @@ function calcular() {
     } else if (calcularIMC.imc >= 40.0){ 
         calcularIMC.mensaje= "Obesidad Grado III"
     }
-    }
-
-
+}
 </script>
 
 <template>

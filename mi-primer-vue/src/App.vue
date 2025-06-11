@@ -1,5 +1,7 @@
 <script setup>
-import IMCCalculator from './components/IMCCalculator.vue';
+import ComidasRapidasDeBBDD from './components/ComidasRapidasDeBBDD.vue';
+// import notasEstudiante from './components/notasEstudiante.vue';
+// import IMCCalculator from './components/IMCCalculator.vue';
 // import otraCalculadora from './components/otraCalculadora.vue';
 // import calculadora from './components/calculadora.vue';
 
@@ -17,10 +19,12 @@ import './assets/styles.css';
 </script>
 
 <template>
-  <IMCCalculator></IMCCalculator>
+  <ComidasRapidasDeBBDD></ComidasRapidasDeBBDD>
+  <!-- <notasEstudiante></notasEstudiante> -->
+  <!-- <IMCCalculator></IMCCalculator> -->
   <!-- <otraCalculadora></otraCalculadora> -->
   <!-- <calculadora></calculadora> -->
-<!-- <comidasRapidas></comidasRapidas> -->
+  <!-- <comidasRapidas></comidasRapidas> -->
   <!-- <registerForm></registerForm> -->
   <!-- <listaProvincia></listaProvincia> -->
   <!-- <ejemplo_funciones></ejemplo_funciones> -->
@@ -30,4 +34,3 @@ import './assets/styles.css';
 
   <!-- <EjerciciosOperadores>  </EjerciciosOperadores> -->
 </template>
-
