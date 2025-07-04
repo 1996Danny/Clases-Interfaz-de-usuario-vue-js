@@ -1,12 +1,20 @@
 <script setup>
-import ComidasRapidasDeBBDD from './components/ComidasRapidasDeBBDD.vue';
+import './assets/styles.css';
+import clientes from './components/clientes/clientes.vue';
+// import ejercicio04 from './components/components_parcial/ejercicio04.vue';
+
+// import ejercicio03 from './components/components_parcial/ejercicio03.vue';
+// import ejercicio02 from './components/components_parcial/ejercicio02.vue';
+// import ejercicio01 from './components/components_parcial/ejercicio01.vue';
+// import ComidasRapidasDeBBDD from './components/ComidasRapidasDeBBDD.vue';
 // import notasEstudiante from './components/notasEstudiante.vue';
 // import IMCCalculator from './components/IMCCalculator.vue';
 // import otraCalculadora from './components/otraCalculadora.vue';
 // import calculadora from './components/calculadora.vue';
 
 // estilo de css
-import './assets/styles.css';
+
+
 //
 // import comidasRapidas from './components/comidasRapidas.vue';
 // import registerForm from './components/registerForm.vue';
@@ -19,7 +27,12 @@ import './assets/styles.css';
 </script>
 
 <template>
-  <ComidasRapidasDeBBDD></ComidasRapidasDeBBDD>
+  <clientes></clientes>
+  <!-- <ejercicio04></ejercicio04> -->
+  <!-- <ejercicio03></ejercicio03> -->
+  <!-- <ejercicio02></ejercicio02> -->
+  <!-- <ejercicio01></ejercicio01> -->
+  <!-- <ComidasRapidasDeBBDD></ComidasRapidasDeBBDD> -->
   <!-- <notasEstudiante></notasEstudiante> -->
   <!-- <IMCCalculator></IMCCalculator> -->
   <!-- <otraCalculadora></otraCalculadora> -->
