@@ -46,6 +46,9 @@
                     <th>
                         Direccion
                     </th> 
+                    <th>
+                        <input type="button" value="Nuevo cliente" @click="agregarCliente()">
+                    </th> 
             </thead>
             <tbody>
                 <tr v-for="i in listaCliente">
@@ -54,6 +57,9 @@
                     <td>{{ i.nombre }}</td>
                     <td>{{ i.dni }}</td>
                     <td>{{ i.direccion }}</td>
+                    <td><input type="button" value="Eliminar" @click="eliminarCliente(i.id)" style="background-color: red;">
+                    <input type="button" value="Modificar" @click="modificarCliente(i.id)" style="background-color: blue;">
+                    <input type="button" value="Ver" @click="verCliente(i.id)" style="background-color: green;"></td>
                 </tr>
             </tbody>
         </table>

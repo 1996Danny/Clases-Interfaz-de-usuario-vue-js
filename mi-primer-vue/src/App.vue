@@ -1,21 +1,21 @@
 <script setup>
 import './assets/styles.css';
-// import clientes from './components/clientes/clientes.vue';
-import ejercicio15 from './components/components_parcial/ejercicio15.vue';  
-// import ejercicio14 from './components/components_parcial/ejercicio14.vue';
-// import ejercicio13 from './components/components_parcial/ejercicio13.vue';
-// import ejercicio12 from './components/components_parcial/ejercicio12.vue';
-// import ejercicio11 from './components/components_parcial/ejercicio11.vue';
-// import ejercicio10 from './components/components_parcial/ejercicio10.vue';
-// import ejercicio09 from './components/components_parcial/ejercicio09.vue';
-// import ejercicio08 from './components/components_parcial/ejercicio08.vue';
-// import ejercicio07 from './components/components_parcial/ejercicio07.vue';
-// import ejercicio06 from './components/components_parcial/ejercicio06.vue';
-// import ejercicio05 from './components/components_parcial/ejercicio05.vue';
-// import ejercicio04 from './components/components_parcial/ejercicio04.vue';
-// import ejercicio03 from './components/components_parcial/ejercicio03.vue';
-// import ejercicio02 from './components/components_parcial/ejercicio02.vue';
-// import ejercicio01 from './components/components_parcial/ejercicio01.vue';
+import clientes from './components/clientes/clientes.vue';
+// import EjercicioQuince from './components/components_parcial/EjercicioQuince.vue';  
+// import EjercicioCatorce from './components/components_parcial/EjercicioCatorce.vue';
+// import EjercicioTrece from './components/components_parcial/EjercicioTrece.vue';
+// import EjercicioDoce from './components/components_parcial/EjercicioDoce.vue';
+// import EjercicioOnce from './components/components_parcial/EjercicioOnce.vue';
+// import EjercicioDiez from './components/components_parcial/EjercicioDiez.vue';
+// import EjercicioNueve from './components/components_parcial/EjercicioNueve.vue';
+// import EjercicioOcho from './components/components_parcial/EjercicioOcho.vue';
+// import EjercicioSiete from './components/components_parcial/EjercicioSiete.vue';
+// import EjercicioSeis from './components/components_parcial/EjercicioSeis.vue';
+// import EjercicioCinco from './components/components_parcial/EjercicioCinco.vue';
+// import EjercicioCuatro from './components/components_parcial/EjercicioCuatro.vue';
+// import EjercicioTres from './components/components_parcial/EjercicioTres.vue';
+// import EjercicioDos from './components/components_parcial/EjercicioDos.vue';
+// import EjercicioUno from './components/components_parcial/EjercicioUno.vue';
 // import ComidasRapidasDeBBDD from './components/ComidasRapidasDeBBDD.vue';
 // import notasEstudiante from './components/notasEstudiante.vue';
 // import IMCCalculator from './components/IMCCalculator.vue';
@@ -37,8 +37,8 @@ import ejercicio15 from './components/components_parcial/ejercicio15.vue';
 </script>
 
 <template>
-  <!-- <clientes></clientes> -->
-   <ejercicio15></ejercicio15>
+  <clientes></clientes>
+   <!-- <ejercicio15></ejercicio15> -->
    <!-- <ejercicio14></ejercicio14> -->
    <!-- <ejercicio13></ejercicio13> -->
    <!-- <ejercicio12></ejercicio12> -->
