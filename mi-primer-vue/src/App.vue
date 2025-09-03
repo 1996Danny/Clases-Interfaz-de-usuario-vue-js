@@ -38,20 +38,21 @@ import clientes from './components/clientes/clientes.vue';
 
 <template>
   <clientes></clientes>
-   <!-- <ejercicio15></ejercicio15> -->
-   <!-- <ejercicio14></ejercicio14> -->
-   <!-- <ejercicio13></ejercicio13> -->
-   <!-- <ejercicio12></ejercicio12> -->
-   <!-- <ejercicio11></ejercicio11> -->
-   <!-- <ejercicio09></ejercicio09> -->
-   <!-- <ejercicio08></ejercicio08> -->
-<!-- <ejercicio07></ejercicio07> -->
-  <!-- <ejercicio06></ejercicio06> -->
-   <!-- <ejercicio05></ejercicio05> -->
-  <!-- <ejercicio04></ejercicio04> -->
-  <!-- <ejercicio03></ejercicio03> -->
-  <!-- <ejercicio02></ejercicio02> -->
-  <!-- <ejercicio01></ejercicio01> -->
+   <!-- <EjercicioQuince></EjercicioQuince> -->
+   <!-- <EjercicioCatorce></EjercicioCatorce> -->
+   <!-- <EjercicioTrece></EjercicioTrece> -->
+   <!-- <EjercicioDoce></EjercicioDoce> -->
+   <!-- <EjercicioOnce></EjercicioOnce> -->
+   <!-- <EjercicioDiez></EjercicioDiez> -->
+   <!-- <EjercicioNueve></EjercicioNueve> -->
+   <!-- <EjercicioOcho></EjercicioOcho> -->
+<!-- <EjercicioSiete></EjercicioSiete> -->
+  <!-- <EjercicioSeis></EjercicioSeis> -->
+   <!-- <EjercicioCinco></EjercicioCinco> -->
+  <!-- <EjercicioCuatro></EjercicioCuatro> -->
+  <!-- <EjercicioTres></EjercicioTres> -->
+  <!-- <EjercicioDos></EjercicioDos> -->
+  <!-- <EjercicioUno></EjercicioUno> -->
   <!-- <ComidasRapidasDeBBDD></ComidasRapidasDeBBDD> -->
   <!-- <notasEstudiante></notasEstudiante> -->
   <!-- <IMCCalculator></IMCCalculator> -->
